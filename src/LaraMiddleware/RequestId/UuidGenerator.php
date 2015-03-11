@@ -10,7 +10,7 @@ class UuidGenerator {
     *
     * @return string
     */
-    private function getV4Uuid()
+    public function getV4Uuid()
     {
         return Uuid::uuid4()->toString();
     }
